@@ -1,5 +1,8 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
-
-@import './pages/index.scss';
+@import './reset';
+@import './layout';
+@import './layout-header';
+@import './main';
+@import './layout-footer';
+@import './RWD-main';
+@import './RWD-H.F';
+@import './question';

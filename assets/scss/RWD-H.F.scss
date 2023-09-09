@@ -1,0 +1,64 @@
+
+@media (max-width:768px) {
+
+    .header-bg{
+        padding-top: 12px;
+    }
+    .container{
+        padding: 0 12px;
+    }
+
+    .logo {
+        width: 100%; /* */
+        margin: 0 0 15px 15px;
+    }
+    
+    .topBar-list{
+        margin: 0 auto;
+        width: 100%; /* */
+        flex-wrap: wrap;
+        /* padding-top: 15px; */
+        
+    }
+    .Bar-list-item{
+        width: 50%; /* */
+        border: solid 1px white;
+        padding: 25px 0;
+        text-align: center;
+       
+    }
+    .Bar-list-item a {
+        margin: 0 auto;
+        display: block;
+    }
+    /**/
+    .footer{
+        margin: 0 15px;
+    }
+    
+    .footer-list{
+        display: none;
+    }
+    .footer-info,.info{
+        display: block;
+    }
+    .footer-nav-link{
+        flex-direction: row-reverse;
+        padding-top: 24px;
+    }
+    .social-link {
+        position: absolute; /* 使用絕對定位 */
+        bottom: 184; /* 距離下方的距離 */
+        right: 15; /* 距離右邊的距離 */
+        transform: translateY(50%); /* 垂直置中 */
+    }
+    .social-link img{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .contact-item{
+        font-size: 16px;
+    }
+    
+}

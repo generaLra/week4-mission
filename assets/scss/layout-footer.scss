@@ -1,0 +1,62 @@
+.footer-nav-link,.footer-info,.info,.footer-list {
+    justify-content: space-between;
+}
+.footer,.footer-list-item a{
+    color: white;
+}
+.footer-list-item{/* hover前置，避免畫面跳動*/
+    border-bottom: 3px solid transparent;
+    padding: 5px;
+}
+.footer-list-item:hover{
+    border-bottom: 3px solid white;
+    padding: 5px;
+}
+.footer-list{
+    width: 464px;
+    align-items: center;
+}
+
+.footer-nav-link{
+    padding: 60.2px 0 35.98px 0;
+}
+.footer-contact a{
+    color: white;
+}
+.footer-contact a:hover{
+    background-color: white;
+	color: #aa0601;
+    cursor: pointer;
+}
+.social-link{
+    gap: 0.5rem;
+    transform:scale(1,1);transition: all 0.5s ease-out;
+}
+.social-link img:hover{
+    transform:scale(1.2,1.2);
+}
+.social-link img{
+    width: 3rem;
+    height: 3rem;
+}
+.icon{
+    color: white;
+    font-size: 36px;
+    margin-right: 10px;
+}
+.footer-info{
+    border-top: solid 1px white;
+    padding: 16px 0 24px 0;
+}
+.info{
+    width: 174px;
+}
+.footer-info p{
+    padding: 0 0 8px 0;
+}
+.info-li a{
+    color: white;
+}
+.info-li a:hover{
+    color: black;
+}

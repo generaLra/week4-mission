@@ -1,0 +1,18 @@
+@media (max-width:768px) {
+    .cont-list,.classical-list,.co-branding,.customer-ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-bg{
+        background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true);
+        background-size: cover;/*等比例縮放，讓圖片可以蓋滿元素寬高*/
+    }
+    .banner{
+        padding-right:12px;
+    }
+    .ques-h2{
+        font-size: 24px;
+    }
+
+
+}
